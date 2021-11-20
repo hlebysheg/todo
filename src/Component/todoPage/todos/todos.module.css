@@ -1,0 +1,24 @@
+.container {
+    border: 1px solid silver;
+    padding: 1rem 1rem;
+    margin: 1rem 15%;
+    transition-duration: 0.5s;
+    transition-property: transform;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container:hover {
+    transform: scale(1.03);
+}
+
+.complete{
+    text-decoration: line-through;
+    background-color: aliceblue;
+}
+
+.btn {
+    display: inline;
+}

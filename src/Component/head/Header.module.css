@@ -1,0 +1,25 @@
+.header {
+    height: 3rem;
+    border-bottom: 1px solid silver;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /*padding: 1%;*/
+    background-color: mediumpurple;
+}
+
+.header > div {
+    margin: 1rem;
+}
+
+.ref {
+    margin: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.ref:hover {
+    text-decoration: none;
+    color: black;
+}
